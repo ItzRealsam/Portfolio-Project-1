@@ -1,0 +1,49 @@
+.about-me {
+  display: flex;
+  gap: 24px;
+
+  padding: 64px 64px;
+}
+
+.about-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 644px;
+}
+
+.about-right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  flex: 1;
+
+  height: fit-content;
+}
+
+.about-right-section .about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-stats {
+  display: flex;
+  gap: 24px;
+
+  flex: 1;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  flex: 1;
+}
+
+.stat .text-body {
+  color: #ffffff;
+}

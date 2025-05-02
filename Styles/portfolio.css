@@ -1,0 +1,61 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 64px 64px;
+  background-color: #0d0d0d;
+}
+
+.portfolio-top-section {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-left-section {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.portfolio-right-section {
+  flex: 1;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-carousel {
+  width: fit-content;
+  overflow-x: auto;
+
+  display: flex;
+  gap: 24px;
+}
+
+.project-card {
+  display: flex;
+  width: fit-content;
+
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 4px 4px #ffffff33;
+}
+
+.project-thumbnail {
+  width: 529px;
+  height: 480px;
+  border-radius: 16px;
+
+  object-fit: cover;
+}

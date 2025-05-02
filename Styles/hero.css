@@ -1,0 +1,49 @@
+.hero {
+  position: relative;
+
+  display: flex;
+
+  max-width: 100%;
+  padding: 32px 64px;
+}
+
+.hero-left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-left-section .text-H1 {
+  width: 645px;
+
+  margin-bottom: 24px;
+}
+
+.text-H1 .name {
+  font-style: italic;
+}
+
+.hero-left-section .text-H4 {
+  width: 644px;
+
+  margin-bottom: 32px;
+}
+
+.hero-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 324px;
+  height: 100%;
+
+  position: absolute;
+  right: 0;
+}

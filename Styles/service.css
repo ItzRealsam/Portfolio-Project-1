@@ -1,0 +1,39 @@
+.service {
+  display: flex;
+  gap: 24px;
+
+  padding: 64px 64px;
+}
+
+.service-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 644px;
+}
+
+.service-right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  flex: 1;
+
+  height: fit-content;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.service-title .text-body {
+  color: white;
+}
+
+.service-categories .text-body {
+  color: white;
+  font-style: italic;
+}
